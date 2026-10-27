@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            
+
+            <button class="menu-btn" id="menu-btn"
+                aria-label="Toggle navigation"
+                aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="intro">HELLO, I'M</p>
+                <h1>Sukesh<span>.</span></h1>
+                <h2>BSc IT Student</h2>
+
+                <p class="hero-text">
+                    Passionate about technology, coding,
+                    and building simple digital experiences.
+                </p>
+
+                <a href="#projects" class="btn">Explore My Work ↗</a>
+            </div>
+
+            <div class="profile">
+                <img
+                    src="profile.png.jpg.jpeg"
+                    alt="Sukesh's profile photo"
+                    onerror="this.style.display='none';
+                    document.getElementById('photo-placeholder')
+                    .style.display='flex';">
+
+                <div class="photo-placeholder" id="photo-placeholder">
+                    <span>S.</span>
+                    <p>Profile Photo</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2>About Me</h2>
+
+            <p class="about-text">
+                I am Sukesh, a second-year BSc Information
+                Technology student at KG College of Arts
+                and Science. I am interested in programming,
+                technology, and creating useful projects.
+                My career goal is to become a Software Developer
+                and continue improving my technical skills.
+            </p>
+
+            <div class="education">
+                <span>EDUCATION</span>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p>KG College of Arts and Science</p>
+                <p>Second Year</p>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <p class="section-label">WHAT I WORK WITH</p>
+            <h2>My Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">Java</div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <p class="section-label">SOME OF MY WORK</p>
+            <h2>My Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <span class="project-number">01</span>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A personal website to showcase my profile,
+                        skills, education, and projects.
+                    </p>
+                    <span class="tag">HTML · CSS · JavaScript</span>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">02</span>
+                    <h3>Calculator</h3>
+                    <p>
+                        A calculator project for performing
+                        basic mathematical operations.
+                    </p>
+                    <span class="tag">HTML · CSS · JavaScript</span>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">03</span>
+                    <h3>Mini Project</h3>
+                    <p>
+                        A section to showcase a mini project
+                        and explain its features.
+                    </p>
+                    <span class="tag">Project Details</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2>Have a project in mind?</h2>
+
+            <p>
+                I'm interested in learning new things
+                and exploring opportunities in technology.
+            </p>
+
+            <a href="mailto:sukeshmaddy07@gmail.com"
+               class="btn" id="email-btn">
+                Get in Touch ↗
+            </a>
+
+            <p class="contact-note">
+                Email: sukeshmaddy07@gmail.com
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed by Sukesh · <span id="year"></span></p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
